@@ -1,0 +1,33 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 148, 109);
+   margin: 20px;
+    padding: 15px;
+    width:  170px;
+    font-family: "Ubuntu", sans-serif;
+
+text-align: center;
+
+}
+
+/* .img {
+    background-size: cover;
+    width: 100px;
+    background-image: url('https://img.freepik.com/premium-photo/small-black-kitten-isolated-on-a-white-background-age-of-the-kitten-2-months_288539-644.jpg');
+    height: 100px;
+    margin: 30px;
+   
+    
+} */
+
+
+
+.description {
+    font-size: 0.8em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.add-btn {
+    width: 100%;
+}
