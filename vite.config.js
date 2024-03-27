@@ -27,8 +27,12 @@ export default defineConfig({
   ],
   workbox: {
     globPatterns: [
-      '**/*.{css,js,jsx,jpg,png,svg}'
+      '**/*.{css,js,jsx,jpg,png,svg,jpeg}'
     ],
-    swDest: 'dist/sw.js'
+    additionalFiles: [
+      'img/apple-touch-icon.png',
+      'img/favicon-16x16.png',
+      'img/favicon-32x32.png'
+    ],
   }
 })
