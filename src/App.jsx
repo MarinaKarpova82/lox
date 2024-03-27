@@ -41,7 +41,7 @@ class App extends React.Component {
         showFullItem: false,
         fullItem: {},
         totalPrice: 0,
-       imagesLoaded: false ////
+      
       }
       this.addToOrder = this.addToOrder.bind(this)
       this.deleteOrder = this.deleteOrder.bind(this)
