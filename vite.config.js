@@ -11,7 +11,18 @@ export default defineConfig({
         short_name: 'PWA',
         description: 'blin',
         theme_color: '#ffffff',
-        icons: [{
+        icons: [
+          {
+            src: 'img/favicon-16x16.png',
+            sizes: '16x16',
+            type: 'image/png',
+          },
+          {
+            src: 'img/favicon-32x32.png',
+            sizes: '32x32',
+            type: 'image/png',
+          },
+          {
           src: 'img/android-chrome-192x192.png',
           sizes: '192x192',
           type: 'image/png',
