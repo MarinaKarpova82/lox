@@ -22,18 +22,14 @@ export default defineConfig({
           sizes: '512x512',
           type: 'image/png',
       }]
+    },
+    workbox: {
+      globPatterns: [
+        '**/*.{css,js,jsx,jpg,png,svg,jpeg}'
+      ]
     }
   })
+ 
   ],
 
 })
-//workbox: {
-  //globPatterns: [
-  //  '**/*.{css,js,jsx,jpg,png,svg,jpeg}'
-  //],
-  //additionalFiles: [
-  //  'img/apple-touch-icon.png',
-  //  'img/favicon-16x16.png',
-  //  'img/favicon-32x32.png'
-//],
-//}
