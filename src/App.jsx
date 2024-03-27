@@ -4,21 +4,6 @@ import React, { Component } from 'react';
 import Header from './components/Header/Header';
 import Items from './components/Items';
 import ShowFullItem from './components/ShowFullItem';
-/* 
-window.addEventListener('load', async () => {
-  try {
-    if ('serviceWorker' in navigator) {
-      await navigator.serviceWorker.register('/sw.js')
-      console.log('Service Worker registered successfully')
-    } else {
-      console.log('Service Worker not supported')
-    }
-  } catch (error) {
-    console.error('Error registering Service Worker:', error)
-  }
-
-  await loadPosts()
-}) */
 
 class App extends React.Component {
  
@@ -60,7 +45,7 @@ class App extends React.Component {
   ) 
   }
 
-  componentDidMount1() {
+  componentDidMount() {
     const savedOrders = localStorage.getItem('orders');
     if (savedOrders) {
         this.setState({ orders: JSON.parse(savedOrders) });
