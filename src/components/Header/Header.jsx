@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from "../Button/Button";
-import { useTelegram } from "../hooks/useTelegtam";
+//import { useTelegram } from "../hooks/useTelegtam";
 import './Header.css'
 import { FaCartPlus } from "react-icons/fa6";
 import Order from "../Order";
@@ -12,7 +12,7 @@ const getTotalPrice = (products = []) => {
     }, 0)
   }
 
-
+ 
 const showOrders = (props) => {
     const totalPrice = getTotalPrice(props.orders);
     return (
