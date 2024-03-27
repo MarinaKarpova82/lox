@@ -1,4 +1,3 @@
-/* 
 const tg = window.Telegram.WebApp;   
 
 export function useTelegram() 
@@ -20,4 +19,4 @@ tg,
 user: tg.initDataUnsefe?.user,
 queryId: tg.initDataUnsefe?.query_id,
 }
-} */
+} 
